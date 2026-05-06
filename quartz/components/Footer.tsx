@@ -14,12 +14,14 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
-          {i18n(cfg.locale).components.footer.createdWith}{" "}
-          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
+          © {year} Edgar Watts. All rights reserved. Built with <a href="https://quartz.jzhao.xyz/">Quartz</a>.
+        </p>
+        <p>
+          The book is currently in progress and updates will be found on the homepage.
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
-            <li>
+            <li key={link}>
               <a href={link}>{text}</a>
             </li>
           ))}
