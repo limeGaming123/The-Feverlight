@@ -1,5 +1,6 @@
 ---
-draft: "true"
+draft: "false"
+title: Kael Lightinger
 ---
 >[!warning]
 >This page has spoilers from the book! I recommend only using this page whilst reading the book, or after.
